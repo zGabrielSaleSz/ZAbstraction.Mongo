@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	
+  
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <Company>ZGabrielSales</Company>
+    <Authors>Gabriel Sales</Authors>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+  </PropertyGroup>
+  <ItemGroup>
+	<None Include="licenses\LICENSE.txt" Pack="true" PackagePath="LICENSE.txt"/>
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.12.4" />
+    <PackageReference Include="MongoDB.Driver" Version="2.12.4" />
+    <PackageReference Include="MongoDB.Driver.Core" Version="2.12.4" />
+  </ItemGroup>
+
+</Project>
